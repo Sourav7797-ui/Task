@@ -1,7 +1,9 @@
-def calc_sum(n):
-    if(n==0 ):
-        return 0
-    else:
-        return calc_sum(n-1) + n
-    
-print(calc_sum (9))
+def check(s,t):
+ if(sorted(s)==sorted(t)):
+    print("True")
+ else:
+    print("False")
+
+s = "silent"
+t = "listen"
+check(s,t)
